@@ -1,0 +1,103 @@
+.loading {
+  display:none
+}
+
+.category-card[data-category="Beef"],
+.category-card[data-category="Pork"] {
+  background: #fff5f5;
+  border-color: #ffe0e0;
+}
+.category-card[data-category="Beef"]:hover,
+.category-card[data-category="Pork"]:hover {
+  border-color: #ffb3b3;
+}
+.category-card[data-category="Beef"] .cat-icon,
+.category-card[data-category="Pork"] .cat-icon {
+  background: linear-gradient(to bottom right, #ff4d4d, #f06292);
+}
+
+.category-card[data-category="Chicken"],
+.category-card[data-category="Lamb"],
+.category-card[data-category="Pasta"] {
+  background: #fff9e6;
+  border-color: #ffe8a3;
+}
+.category-card[data-category="Chicken"]:hover,
+.category-card[data-category="Lamb"]:hover,
+.category-card[data-category="Pasta"]:hover {
+  border-color: #ffd166;
+}
+.category-card[data-category="Chicken"] .cat-icon,
+.category-card[data-category="Lamb"] .cat-icon,
+.category-card[data-category="Pasta"] .cat-icon {
+  background: linear-gradient(to bottom right, #ff9800, #ffc107);
+}
+
+.category-card[data-category="Dessert"] {
+  background: #fff0f6;
+  border-color: #ffd6e7;
+}
+.category-card[data-category="Dessert"]:hover {
+  border-color: #ffb3d4;
+}
+.category-card[data-category="Dessert"] .cat-icon {
+  background: linear-gradient(to bottom right, #e91e63, #f06292);
+}
+
+.category-card[data-category="Miscellaneous"] {
+  background: #f8f9ff;
+  border-color: #e0e7ff;
+}
+.category-card[data-category="Miscellaneous"]:hover {
+  border-color: #c4cfff;
+}
+.category-card[data-category="Miscellaneous"] .cat-icon {
+  background: #78889b;
+}
+
+.category-card[data-category="Seafood"] {
+  background: #f0f9ff;
+  border-color: #bae6fd;
+}
+.category-card[data-category="Seafood"]:hover {
+  border-color: #7dd3fc;
+}
+.category-card[data-category="Seafood"] .cat-icon {
+  background: linear-gradient(to bottom right, #00a3ff, #60a5fa);
+}
+
+.category-card[data-category="Side"],
+.category-card[data-category="Vegan"] {
+  background: #f0fff4;
+  border-color: #bcf0da;
+}
+.category-card[data-category="Side"]:hover,
+.category-card[data-category="Vegan"]:hover {
+  border-color: #86e4b8;
+}
+.category-card[data-category="Side"] .cat-icon,
+.category-card[data-category="Vegan"] .cat-icon {
+  background: linear-gradient(to bottom right, #00c853, #69f0ae);
+}
+
+.category-card[data-category="Starter"] {
+  background: #f0fdfa;
+  border-color: #ccfbf1;
+}
+.category-card[data-category="Starter"]:hover {
+  border-color: #99f0e0;
+}
+.category-card[data-category="Starter"] .cat-icon {
+  background: linear-gradient(to bottom right, #00bcd4, #4dd0e1);
+}
+
+.category-card[data-category="Vegetarian"] {
+  background: #f7fee7;
+  border-color: #d9f99d;
+}
+.category-card[data-category="Vegetarian"]:hover {
+  border-color: #bef264;
+}
+.category-card[data-category="Vegetarian"] .cat-icon {
+  background: linear-gradient(to bottom right, #8bc34a, #aed581);
+}
